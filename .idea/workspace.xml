@@ -11,7 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6dabdc-2ab8-4e14-aa98-8e53048867ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dz1/dz1-2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz1/dz1-3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz1/dz1-4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz1/dz1-5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz1/dz1-6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz0/dz0-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz0/dz0-1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz1/dz1.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +43,10 @@
     <option name="enabled" value="true" />
     <option name="isEnabled" value="true" />
   </component>
-  <component name="ProblemsViewState">
-    <hideBySeverity>
-      <option value="15" />
-      <option value="100" />
-      <option value="200" />
-    </hideBySeverity>
-  </component>
   <component name="ProjectId" id="1tynfIvn0SOyE116FC6y8kGSMUM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,16 +54,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dz0" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dz1/dz1-1.php" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/dz1/dz1-1.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\loftschool__php\dz0" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\loftschool__php\dz1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\loftschool-php\dz1" />
+      <recent name="C:\OpenServer\domains\loftschool__php\dz0" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +82,9 @@
       <workItem from="1623750301776" duration="488000" />
       <workItem from="1623750805204" duration="976000" />
       <workItem from="1624026801783" duration="64000" />
-      <workItem from="1624027110402" duration="6790000" />
+      <workItem from="1624027110402" duration="7207000" />
+      <workItem from="1624048340582" duration="1861000" />
+      <workItem from="1624050232082" duration="6474000" />
     </task>
     <servers />
   </component>
@@ -91,8 +101,53 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624050442495">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624050442495" />
+    <state x="1210" y="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624049338549">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1210" y="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1624049338549" />
+    <state x="707" y="435" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624049927478">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="707" y="435" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1160@0.0.1920.1160" timestamp="1624049927478" />
+    <state x="92" y="92" width="1736" height="976" key="DiffContextDialog" timestamp="1624049780053">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="92" y="92" width="1736" height="976" key="DiffContextDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624049780053" />
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1624049643604">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1624049643604" />
+    <state x="751" y="303" key="NewPhpClassDialog" timestamp="1624049692369">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="751" y="303" key="NewPhpClassDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624049692368" />
+    <state x="794" y="503" key="NewPhpFileDialog" timestamp="1624055055130">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="794" y="503" key="NewPhpFileDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624055055130" />
+    <state x="275" y="119" width="998" height="1041" key="SettingsEditor" timestamp="1624050533751">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="275" y="119" width="998" height="1041" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1624050533751" />
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1624049456069">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1624049456069" />
+    <state x="92" y="92" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1624050216953">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="92" y="92" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624050216953" />
+    <state x="198" y="188" width="1466" height="800" key="dock-window-1" timestamp="1624048218879">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="198" y="188" width="1466" height="800" key="dock-window-1/0.0.1920.1160@0.0.1920.1160" timestamp="1624048218879" />
     <state x="509" y="125" width="585" height="888" key="find.popup" timestamp="1624026851212">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
