@@ -36,6 +36,13 @@
     <option name="enabled" value="true" />
     <option name="isEnabled" value="true" />
   </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="100" />
+      <option value="200" />
+    </hideBySeverity>
+  </component>
   <component name="ProjectId" id="1tynfIvn0SOyE116FC6y8kGSMUM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,7 +74,7 @@
       <workItem from="1623750301776" duration="488000" />
       <workItem from="1623750805204" duration="976000" />
       <workItem from="1624026801783" duration="64000" />
-      <workItem from="1624027110402" duration="6482000" />
+      <workItem from="1624027110402" duration="6790000" />
     </task>
     <servers />
   </component>
