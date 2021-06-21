@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6dabdc-2ab8-4e14-aa98-8e53048867ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dz2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dz2/src/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dz0/dz0-1.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz0/dz0-1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +53,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dz1/dz1-1.php" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/dz1/dz1-1.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\loftschool__php\dz1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\loftschool-php\dz1" />
       <recent name="C:\OpenServer\domains\loftschool__php\dz0" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\loftschool__php\dz1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +79,8 @@
       <workItem from="1624026801783" duration="64000" />
       <workItem from="1624027110402" duration="7207000" />
       <workItem from="1624048340582" duration="1861000" />
-      <workItem from="1624050232082" duration="6914000" />
+      <workItem from="1624050232082" duration="7115000" />
+      <workItem from="1624261268778" duration="8475000" />
     </task>
     <servers />
   </component>
@@ -102,10 +104,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624050442495" />
-    <state x="1210" y="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624049338549">
+    <state x="1210" y="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624277244528">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="1210" y="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1624049338549" />
+    <state x="1210" y="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1624277244528" />
     <state x="707" y="435" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1624049927478">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -126,10 +128,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="794" y="503" key="NewPhpFileDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1624055055130" />
-    <state x="275" y="119" width="998" height="1041" key="SettingsEditor" timestamp="1624050533751">
+    <state x="275" y="119" width="998" height="1041" key="SettingsEditor" timestamp="1624262509295">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="275" y="119" width="998" height="1041" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1624050533751" />
+    <state x="275" y="119" width="998" height="1041" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1624262509295" />
     <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1624049456069">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -146,5 +148,29 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="509" y="125" width="585" height="888" key="find.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1624026851212" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1624283541410">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1624283541410" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/dz2/src/functions.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/dz2/src/functions.php</url>
+          <line>106</line>
+          <properties>
+            <option name="className" value="" />
+            <option name="methodName" value="\task4" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
