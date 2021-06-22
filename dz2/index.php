@@ -6,7 +6,7 @@ require ('src/functions.php');
 //task1([1,3,666,345345,'dfgdfggdg']);
 
 // Задание #2
-//echo task2('*',555,33, 432);
+//echo task2('/',555,33, 432);
 
 // Задание #3
 //task3(3,6);

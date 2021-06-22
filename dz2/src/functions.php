@@ -11,77 +11,84 @@ function task1(array $array, bool $toString = false)
     }
 }
 
-function task2(string $operation, ... $args) {
+function task2(string $operation, ... $args)
+{
     $args = func_get_args();
-if ( ('*' === $operation) && count($args) > 2) {
-    $result = 1;
-    for ($i=1; $i < count($args); $i++) {
-        if (!is_numeric($args[$i])) {
-            echo 'Ошибка. Проверте введенные аргументы!';
-            die();
-        } else {
-            $result *= $args[$i];
-        }
-    }
-    // результат arg1*arg2...
-    unset($args[0]);
-    echo implode(" * ", $args) . ' = ' . $result;
 
-} elseif ( ('/' === $operation) && count($args) > 2) {
+    switch (true) {
 
-    if (!is_numeric($args[1])) {
-        echo 'Ошибка. Проверте введенные аргументы!';
-        die();
-    } else {
-        $result = $args[1];
-    }
-    for ($i=2; $i < count($args); $i++) {
-        if (!is_numeric($args[$i]) || 0 == $args[$i]) {
-            echo 'Ошибка. Проверте введенные аргументы!';
-            die();
-        } else {
-            $result /= $args[$i];
-        }
-    }
-    // результат arg1/arg2...
-    unset($args[0]);
-    echo implode(" / ", $args) . ' = ' . $result;
+        case (('*' === $operation) && count($args) > 2):
+            $result = 1;
+            for ($i = 1; $i < count($args); $i++) {
+                if (!is_numeric($args[$i])) {
+                    echo 'Ошибка. Проверте введенные аргументы!';
+                    die();
+                } else {
+                    $result *= $args[$i];
+                }
+            }
+            // результат arg1*arg2...
+            unset($args[0]);
+            echo implode(" * ", $args) . ' = ' . $result;
+            break;
 
-} elseif ( ('+' === $operation) && count($args) > 2) {
-    $result = 0;
-    for ($i=1; $i < count($args); $i++) {
-        if (!is_numeric($args[$i])) {
-            echo 'Ошибка. Проверте введенные аргументы!';
-            die();
-        } else {
-            $result += $args[$i];
-        }
-    }
-    // результат arg1+arg2...
-    unset($args[0]);
-    echo implode(" + ", $args) . ' = ' . $result;
+        case (('/' === $operation) && count($args) > 2):
+            if (!is_numeric($args[1])) {
+                echo 'Ошибка. Проверте введенные аргументы!';
+                die();
+            } else {
+                $result = $args[1];
+            }
+            for ($i = 2; $i < count($args); $i++) {
+                if (!is_numeric($args[$i]) || 0 == $args[$i]) {
+                    echo 'Ошибка. Проверте введенные аргументы!';
+                    die();
+                } else {
+                    $result /= $args[$i];
+                }
+            }
+            // результат arg1/arg2...
+            unset($args[0]);
+            echo implode(" / ", $args) . ' = ' . $result;
+            break;
 
-} elseif ( ('-' === $operation) && count($args) > 2) {
-    if (!is_numeric($args[1])) {
-        echo 'Ошибка. Проверте введенные аргументы!';
-        die();
-    } else {
-        $result = $args[1];
-    }
-    for ($i=2; $i < count($args); $i++) {
-        if (!is_numeric($args[$i])) {
-            echo 'Ошибка. Проверте введенные аргументы!';
-            die();
-        } else {
-            $result -= $args[$i];
-        }
-    }
-    // результат arg1-arg2...
-    unset($args[0]);
-    echo implode(" - ", $args) . ' = ' . $result;
+        case (('+' === $operation) && count($args) > 2):
+            $result = 0;
+            for ($i = 1; $i < count($args); $i++) {
+                if (!is_numeric($args[$i])) {
+                    echo 'Ошибка. Проверте введенные аргументы!';
+                    die();
+                } else {
+                    $result += $args[$i];
+                }
+            }
+            // результат arg1+arg2...
+            unset($args[0]);
+            echo implode(" + ", $args) . ' = ' . $result;
+            break;
 
-} else {
-    echo 'Что то пошло не так';
+        case (('-' === $operation) && count($args) > 2):
+            if (!is_numeric($args[1])) {
+                echo 'Ошибка. Проверте введенные аргументы!';
+                die();
+            } else {
+                $result = $args[1];
+            }
+            for ($i = 2; $i < count($args); $i++) {
+                if (!is_numeric($args[$i])) {
+                    echo 'Ошибка. Проверте введенные аргументы!';
+                    die();
+                } else {
+                    $result -= $args[$i];
+                }
+            }
+            // результат arg1-arg2...
+            unset($args[0]);
+            echo implode(" - ", $args) . ' = ' . $result;
+            break;
+
+        default:
+            echo 'Что то пошло не так';
     }
 }
 
@@ -147,5 +154,10 @@ function task9( string $filename) {
 
     //Напишите функцию, которая будет принимать имя файла, открывать файл и выводить содержимое на экран.
     $data = file_get_contents($filename);
-    echo $data;
+
+    if ($data) {
+        echo $data;
+    } else {
+        echo 'Что то пошло не так';
+    }
 }

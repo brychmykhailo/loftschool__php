@@ -11,9 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6dabdc-2ab8-4e14-aa98-8e53048867ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dz2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dz2/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz1/dz1-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz1/dz1-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz1/dz1-3.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz1/dz1-3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz1/dz1-4.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz1/dz1-4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz1/dz1-5.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz1/dz1-5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz2/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/dz2/src/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +86,7 @@
       <workItem from="1624048340582" duration="1861000" />
       <workItem from="1624050232082" duration="7115000" />
       <workItem from="1624261268778" duration="8475000" />
+      <workItem from="1624376472192" duration="759000" />
     </task>
     <servers />
   </component>
@@ -152,25 +158,5 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1624283541410" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/dz2/src/functions.php</url>
-          <line>57</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/dz2/src/functions.php</url>
-          <line>106</line>
-          <properties>
-            <option name="className" value="" />
-            <option name="methodName" value="\task4" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

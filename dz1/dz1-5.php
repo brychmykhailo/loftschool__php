@@ -46,6 +46,6 @@ $cars = [
 
 foreach ( $cars as $carName => $car ) {
     echo 'CAR ' . $carName . '<br>';
-    echo $cars["$carName"]['model'] . ' ' . $cars["$carName"]['speed'] . ' ' . $cars["$carName"]['doors'] . ' ' . $cars["$carName"]['year'] . '<br>';
+    echo $car['model'] . ' ' . $car['speed'] . ' ' . $car['doors'] . ' ' . $car['year'] . '<br>';
     echo '<br>';
 }
